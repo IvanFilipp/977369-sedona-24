@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Иван Филиппов](https://up.htmlacademy.ru/htmlcss/24/user/977369).
-* Наставник: [Денис Байдаров]. https://htmlacademy.ru/profile/4er
+* Наставник: [Денис Байдаров](https://htmlacademy.ru/profile/4er).
 
 ---
 
