@@ -2,7 +2,7 @@
   <html lang="ru">
     <head>
       <meta charset="utf-8">
-        <title>Седона-гостиницы</title>
+        <title>Гостиницы-в-Седоне</title>
     </head>
     <body>
       <header class="main-header">
@@ -11,55 +11,59 @@
             <li><a href="info.html">Информация</a></li>
             <li><a href="foto-video.html">Фото и видео</a></li>
             <li><a href="map-state.html">Карта штата</a></li>
-            <li class="site-navigation-current">Гостиницы</li>
+            <li class="site-navigation-current"><a>Гостиницы</a></li>
           </ul>
-            <a class="main-header-logo" href="index.html">
-              <img src="img/index-logo.svg" width="111" height="24"
-              alt="Логотип Седона">
-           </a>
         </nav>
+        <div class="main-header-logo">
+          <img src="img/index-logo.svg" width="111" height="24"
+            alt="Логотип сайта Седона">
+        </div>
       </header>
 
-      <main class="container">
+      <main>
         <h1 class="visuality-hidden">Поиск гостиниц в Седоне</h1>
         <h2 class="visuality-hidden">Критерии поиска гостиниц</h2>
 
-        <article class="bloc">
-          <h1>Amara resort & SPA</h1>
-          <section class="hotel">
+        <article class="hotel-description">
+          <h3>Amara resort & SPA</h3>
+          <section class="hotel-amara">
             <img src="hotel-Amara.jpg" width="111" height="121"
-              alt="Гостиница «Amara resort & SPA»">
+              alt="Фотография гостиницы «Amara resort & SPA»">
             <p class="name">Гостиница</p>
-            <p class="price">от 4000 Р.</p></section>
-          <a class="button-more-detailed" href="URL">Подробнее</a>
-          <a class="button" href="URL">Забронировать</a>
+            <p class="price">от 4000 Р.</p>
+          </section>
+          <button class="button-more-detailed">Подробнее</button>
+          <button class="button-book">Забронировать</button>
           <span class="star"><img src="4star.jpg" width="111" height="121"
             alt="Четыре звезды рейтинга"></span>
-          <span class="rating">Рейтинг: 8.5</span>
+          <p class="rating">Рейтинг: 8.5</p>
         </article>
 
-        <article class="bloc">
-          <h1>Desert Quail Inn</h1>
+        <article class="hotel-description">
+          <h3>Desert Quail Inn</h3>
           <section class="hotel">
             <img src="hotel-Desert.jpg" width="111" height="121"
-              alt="Гостиница «Desert Quail Inn»">
+              alt="Фотография гостиницы «Desert Quail Inn»">
             <p class="name">Мотель</p>
-            <p class="price">от 3000 Р.</p></section>
-          <a class="button-more-detailed" href="URL">Подробнее</a>
-          <a class="button" href="URL">Забронировать</a>
+            <p class="price">от 3000 Р.</p>
+          </section>
+          <button class="button-more-detailed">Подробнее</button>
+          <button class="button-book">Забронировать</button>
           <span class="star"><img src="3star.jpg" width="111" height="121"
             alt="Три звезды рейтинга"></span>
-          <span class="rating">Рейтинг: 8.9</span>
+          <p class="rating">Рейтинг: 8.9</p>
         </article>
 
-        <article clas="bloc">
-          <h1>Villas at Poco Diablo</h1>
+        <article clas="hotel-description">
+          <h3>Villas at Poco Diablo</h3>
           <section class="hotel">
             <img src="hotel-Villas.jpg" width="111" height="121"
-              alt="Гостиница «Villas at Poco Diablo»">
+              alt="Фотография гостиницы «Villas at Poco Diablo»">
               <p class="name">Апартаменты</p>
-              <p class="price">от 2000 Р.</p></section>
-          <a class="button-more-detailed" href="URL">Подробнее</a>
+              <p class="price">от 2000 Р.</p>
+          </section>
+          <button class="button-more-detailed">Подробнее</button>
+          <button class="button-book">Забронировать</button>
           <span class="star"><img src="2star.jpg" width="111" height="121"
             alt="Две звезды рейтинга"></span>
           <span class="rating">Рейтинг: 9.2</span>
@@ -67,18 +71,20 @@
       </main>
 
       <footer class="main-footer">
-        <span class="hashtag">#VISITSEDONA</span>
-        <div class="footer-social">
+        <b class="hashtag">#VISITSEDONA</b>
+        <section class="footer-social">
           <ul>
-            <li><a class="social-button" href="URL">Твитер</a></li>
-            <li><a class="social-button" href="URL">Фейсбук</a></li>
-            <li><a class="social-button" href="URL">Ютуб</a></li>
+            <li><a class="social-button-twitter" href="#">Твитер нашего сайта</a></li>
+            <li><a class="social-button-facebook" href="#">Фейсбук нашего сайта</a></li>
+            <li><a class="social-button-youtube" href="#">Ютуб канал нашего сайта</a></li>
           </ul>
-        </div>
-        <div class="logo-developer"><span class="copyright">website by
-          <a class="button" href="https://htmlacademy.ru/intensive/htmlcss"></a>
+        </section>
+        <div class="logo-developer"><p class="copyright">website by</p>
+          <a class="logo-developer-button"
+             href="https://htmlacademy.ru/intensive/htmlcss">
             <img src="img/academy-logo.jpg" width="111" height="121"
-              alt="Логотип разработчика сайта">
+              alt="Логотип разработчика сайта HTML Academy">
+          </a>
         </div>
       </footer>
     </body>
