@@ -26,14 +26,33 @@
         </a>
       </header>
       <main class="main-container">
-        <p class="caption">Седона-небольшой городок в Аризоне заслуживающий
+        <p class="main-caption">Седона-небольшой городок в Аризоне заслуживающий
           большего!</p>
         <p class="text">Рассмотрим 5 причин по которым Седона круче
           чем Гранд Каньон!</p>
         <section class="search-hotels">
-          <p class="hotel-search-title">Заинтересовались? Укажите предполагаемые даты
+          <p class="search-hotels-title">Заинтересовались? Укажите предполагаемые даты
              поездки и мы покажем Вам лучшие предложения гостиниц в Седоне</p>
-<!-- форма     -->
+          <h2 class="search-hotels-Sedona">Поиск гостиницы в Седоне</h2>
+          <form class="search-hotels-form" action="https://echo.htmlacademy.ru" method="get">
+            <p class="search-hotels-item">
+              <label for="search-hotels-date">Дата заезда</label>
+              <input id="search-hotels-date" type="date" name="date"
+              value="24 апреля 2017" autofocus ></p>
+            <p class="search-hotels-item">
+              <label for="search-hotels-date-out">Дата выезда</label>
+              <input id="search-hotels-date-out" type="date" name="date-out"
+              value="4 июля 2017"></p>
+            <p class="search-hotels-item">
+              <label for="search-hotels-number-of-adults">Взрослые</label>
+              <input id="search-hotels-number-of-adults" type="number" name="adults"
+              value="2" min="0" max="" step="1"></p>
+            <p class="search-hotels-item">
+              <label for="search-hotels-number-of-children">Дети</label>
+              <input id="search-hotels-number-of-children" type="number" name="children"
+              value="0" min="0" max="" step="1"></p>
+            <button class="button button-search" type="submit">Найти</button>
+          </form>
         </section>
       </main>
 
