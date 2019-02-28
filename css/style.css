@@ -2,10 +2,8 @@
   <html lang="ru">
     <head>
       <meta charset="utf-8">
+      <link href=" external.css" rel=" stylesheet">
       <title>Главная страница Седона</title>
-      <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
-      <link href="css/normalize.css" rel="stylesheet">
-      <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
       <header class="main-header">
@@ -15,7 +13,8 @@
          <!-- Фоновое изображение расположено под навигацией сайта -->
         <nav class="main-navigation">
           <ul class="site-navigation">
-            <li><a class="choice-info">Информация</a></li>
+            <li><a href="info.html" class="choice-info">
+            <li><a>Информация</a></li>
             <li><a href="foto-video.html" class="choice-foto" >Фото и видео</a></li>
             <li><a href="map-state.html" class="choice-map">Карта штата</a></li>
             <li><a href="hotels.html" class="choice-hotel">Гостиницы</a></li>
@@ -29,14 +28,11 @@
       <main class="main-container">
         <p class="main-caption">Седона-небольшой городок в Аризоне заслуживающий
           большего!</p>
-        <p class="five-reasons">Рассмотрим 5 причин по которым Седона круче
+        <p class="text">Рассмотрим 5 причин по которым Седона круче
           чем Гранд Каньон!</p>
-
-          
         <section class="search-hotels">
-          <p class="search-hotels-title">Заинтересовались?</p>
-          <p class="expected-date">Укажите предполагаемые даты поездки,</p>
-          <p class="show-suggestions">и мы покажем Вам лучшие предложения гостиниц в Седоне</p>
+          <p class="search-hotels-title">Заинтересовались? Укажите предполагаемые даты
+             поездки и мы покажем Вам лучшие предложения гостиниц в Седоне</p>
           <h2 class="search-hotels-Sedona">Поиск гостиницы в Седоне</h2>
           <form class="search-hotels-form" action="https://echo.htmlacademy.ru" method="get">
             <p class="search-hotels-item">
