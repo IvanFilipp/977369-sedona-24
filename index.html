@@ -9,10 +9,6 @@
     </head>
     <body>
       <header class="main-header">
-        <img src="img/background-photo" width="1200"height="800"
-         alt="">
-         <!-- декоративное изображение -->
-         <!-- Фоновое изображение расположено под навигацией сайта -->
         <nav class="main-navigation">
           <ul class="site-navigation">
             <li><a class="choice-info">Информация</a></li>
@@ -27,12 +23,40 @@
         </a>
       </header>
       <main class="main-container">
-        <p class="main-caption">Седона-небольшой городок в Аризоне заслуживающий
-          большего!</p>
-        <p class="five-reasons">Рассмотрим 5 причин по которым Седона круче
-          чем Гранд Каньон!</p>
-
-          
+        <h1 class="visuality-hidden">Основное содержимое страницы</h1>
+        <p class="main-caption">
+          <b>Седона-небольшой городок в Аризоне заслуживающий большего!</b></p>
+        <section class="advantages">
+          <h2 class="visuality-hidden">Преимущества Седоны перед Гранд-Каньоном</h2>
+          <p class="five-reasons">Рассмотрим 5 причин по которым Седона круче чем Гранд Каньон!</p>
+          <ul>
+            <li class="item-advantages">
+              <b class="main-item-advantages">Настоящий городок</b>
+              -№1- Седона - не аттракцион для туристов, там течёт своя жизнь</li>
+            <li class="item-advantages">
+              <b class="main-item-advantages">Там есть мост дьявола</b>
+              -№2- Да, по нему можно пройти! Если конечно вы осмелитесь</li>
+            <li class="item-advantages color">
+              <b class="main-item-advantages color">Небольшая площадь</b>
+              -№3- Все достопримечательности находятся очень близко</li>
+            <li class="item-advantages color">
+              <b class="main-item-advantages color">Красивая дорога</b>
+              -№4- Ехать в Седону из Лас-Вегаса совсем не скучно!</li>
+            <li class="item-advantages color">
+              <b class="main-item-advantages color">Мало туристов</b>
+              -№5- Большинство Едет в Гранд Каньон и толпятся там</li>
+            <!-- Не совсем понял как выделять двумя классами крайние три блока для css -->
+          </ul>
+          <span class="features">
+            <b class="main-features">Жильё</b>
+            Рекомендуем Пожить в настоящем мотеле, всё как в кино!</span>
+          <span class="features">
+            <b class="main-features">Еда</b>
+            Всегда заказывайте фирменный бургер, вы не разочаруетесь!</span>
+          <span class="features">
+            <b class="main-features">Сувениры</b>
+            Не только китайского, но и местного производства!</span>
+        </section>
         <section class="search-hotels">
           <p class="search-hotels-title">Заинтересовались?</p>
           <p class="expected-date">Укажите предполагаемые даты поездки,</p>
@@ -61,8 +85,11 @@
       </main>
 
       <footer class="main-footer">
+        <img src="img/map.png" width="1200" height="593"
+          alt="Местоположение на карте города Седоны">
         <b class="hashtag">#VISITSEDONA</b>
         <section class="footer-social">
+          <h3 class="visuality-hidden">Раздел социальных сетей</h3>
           <ul>
             <li><a class="social-button-twitter" href="#">Твитер нашего сайта</a></li>
             <li><a class="social-button-facebook" href="#">Фейсбук нашего сайта</a></li>
@@ -73,7 +100,7 @@
           <a class="logo-developer-button"
              href="https://htmlacademy.ru/intensive/htmlcss">
             <img src="img/academy-logo.jpg" width="115" height="41"
-              alt="Логотип разработчика сайта HTML Academy">
+              alt="Логотип разработчика сайта «HTML Academy» переход на их сайт">
           </a>
         </div>
       </footer>
