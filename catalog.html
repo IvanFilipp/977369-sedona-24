@@ -11,10 +11,10 @@
       <header class="main-header">
         <nav class="main-navigation">
           <ul class="site-navigation">
-            <li><a href="info.html" class="choice-info">Информация</a></li>
-            <li><a href="foto-video.html" class="choice-foto">Фото и видео</a></li>
-            <li><a href="map-state.html" class="choice-map">Карта штата</a></li>
-            <li><a class="choice-hotel">Гостиницы</a></li>
+            <li><a href="info.html" class="menu-item">Информация</a></li>
+            <li><a href="foto-video.html" class="menu-item">Фото и видео</a></li>
+            <li><a href="map-state.html" class="menu-item">Карта штата</a></li>
+            <li><a class="menu-item menu-item-current">Гостиницы</a></li>
           </ul>
         </nav>
         <a class="header-logo" href="index.html">
@@ -27,9 +27,9 @@
         <h1 class="visuality-hidden">Поиск гостиниц в Седоне</h1>
         <h2 class="visuality-hidden">Критерии поиска гостиниц</h2>
         <form class="form" action="https://echo.htmlacademy.ru" method="post">
-          <fieldset>
+          <fieldset class="form-group">
             <legend class="form-subtitle">Инфраструктура:</legend>
-            <ul>
+            <ul class="form-list">
               <li class="form-box">
                 <input type="checkbox" name="pool" id="pool" checked>
                 <label for="pool">Бассейн</label>
@@ -44,9 +44,9 @@
               </li>
             </ul>
           </fieldset>
-          <fieldset>
+          <fieldset class="form-group">
             <legend class="form-subtitle">Тип жилья:</legend>
-            <ul>
+            <ul class="form-list">
               <li class="form-box">
                 <input type="checkbox" name="hotel" id="hotel" checked>
                 <label for="hotel">Гостиница</label>
